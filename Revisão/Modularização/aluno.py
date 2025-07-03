@@ -7,6 +7,14 @@ class Aluno:
         self.__curso = curso
         self.__notas = []
 
+    # Getter para o nome:
+    def get_nome(self):
+        return self.__nome
+
+    # Getter para a matrícula
+    def get_matricula(self):
+        return self.__matricula
+
     def adicionar_nota(self, nota):
         if 0 <= nota <= 10:
             self.__notas.append(nota)
