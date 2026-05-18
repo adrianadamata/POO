@@ -1,7 +1,13 @@
-# POO
-Programação Orientada a Objetos
+# Modularização em Python: Projeto POO com Composição
 
-Projeto POO - **Sistema de Cadastro de Alunos**
+Neste notebook, vamos aprender a:
+- Criar e organizar módulos em Python
+- Separar classes em arquivos diferentes
+- Importar e reutilizar código no Jupyter Notebook
 
-📌 Propósito do Projeto:
-O projeto tem como objetivo simular um sistema simples de cadastro e gerenciamento de alunos, no qual começaremos a aplicar os conceitos fundamentais da Programação Orientada a Objetos (POO) de forma prática e contextualizada.
+## 📁 Estrutura modular sugerida
+
+- `aluno.py`: Contém a classe `Aluno` e suas subclasses (`AlunoIntegrado`, `AlunoGraduacao`, etc.)
+- `curso.py`: Contém a classe `Curso`
+- `utilidades.py`: Contém funções auxiliares (ex: entrada de nota)
+- `main.ipynb`: Este notebook que importa os módulos e executa o programa principal
