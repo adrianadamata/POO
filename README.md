@@ -9,5 +9,5 @@ Neste notebook, vamos aprender a:
 
 - `aluno.py`: Contém a classe `Aluno` e suas subclasses (`AlunoIntegrado`, `AlunoGraduacao`, etc.)
 - `curso.py`: Contém a classe `Curso`
-- `utilidades.py`: Contém funções auxiliares (ex: entrada de nota)
+- `cadastro.py`: Contém funções auxiliares (ex: entrada de nota)
 - `main.ipynb`: Este notebook que importa os módulos e executa o programa principal
