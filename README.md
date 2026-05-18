@@ -7,7 +7,7 @@ Neste notebook, vamos aprender a:
 
 ## 📁 Estrutura modular sugerida
 
-- `aluno.py`: Contém a classe `Aluno` e suas subclasses (`AlunoIntegrado`, `AlunoGraduacao`, etc.)
+- `aluno.py`: Contém a classe `Aluno` 
 - `curso.py`: Contém a classe `Curso`
 - `cadastro.py`: Contém funções auxiliares (ex: entrada de nota)
 - `main.ipynb`: Este notebook que importa os módulos e executa o programa principal
